@@ -1,6 +1,6 @@
 n = int(input())
 m = int(input())
-A = [] #
+A = [] ##
 if m != 0:
     A = list(input().split())
 min_temp = 123456789

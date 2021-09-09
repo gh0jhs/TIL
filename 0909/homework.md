@@ -2,7 +2,7 @@
 
 ### Compiled Bootstrap 
 
-CSS, JS 파일을 다운로드 받아 Django 프로젝트에 Static 파일로 추가하시오. 부트스트랩이 적용되기 위해 작성해야 할 코드를 제출하시오. https://getbootstrap.com/docs/5.1/getting-started/download
+CSS, JS 파일을 다운로드 받아 Django 프로젝트에 Static 파일로 추가하시오. 부트스트랩이 적용되기 위해 작성해야 할 코드를 제출하시오.. https://getbootstrap.com/docs/5.1/getting-started/download
 
 ```html
 {% load static %}

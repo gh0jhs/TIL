@@ -9,7 +9,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_safe, require_POST
 from .models import Article
 from .forms import ArticleForm
-# Create your views here.
+# Create your views here..
 
 def index(request):
     articles = Article.objects.all()

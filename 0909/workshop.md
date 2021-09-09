@@ -85,6 +85,8 @@ create
 
 detail
 
+![2222](workshop.assets/2222.PNG)
+
 ```html
 {% extends 'base.html' %}
 
@@ -124,6 +126,10 @@ index
 
 
 update
+
+![333](workshop.assets/333.PNG)
+
+![444](workshop.assets/444.PNG)
 
 ```html
 {% extends 'base.html' %}

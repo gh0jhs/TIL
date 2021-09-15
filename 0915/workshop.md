@@ -6,6 +6,8 @@ from django.contrib.auth import login as auth_login
 from django.contrib.auth import logout as auth_logout
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.views.decorators.http import require_http_methods, require_POST
+from .models import Account
+from django.contrib.auth import get_user_model
 
 # Create your views here.
 @require_http_methods(['GET', 'POST'])
@@ -40,9 +42,17 @@ def signup(request):
         'form' : form,
     }
     return render(request, 'accounts/signup.html', context)
+
+def index(request):
+    users = get_user_model().objects.all()
+    
+    context = {
+        'users': users,
+    }
+    return render(request, 'accounts/index.html', context)
 ```
 
-![캡처](workshop.assets/캡처.PNG)
+![111](workshop.assets/111.PNG)
 
 ![signup](workshop.assets/signup.PNG)
 

@@ -26,7 +26,7 @@ from django.contrib.auth.forms import UserCreationForm
 ### 3. Django sessions
 
 ```python
-(a) user
+(a) django_session
 (b) sessionid
 ```
 

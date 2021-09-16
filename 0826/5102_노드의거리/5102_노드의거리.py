@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 def bfs(data, s, g):
     global visited
     visited[s] = 1

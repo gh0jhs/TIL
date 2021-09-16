@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 def inorder(v):
     if v:
         inorder(left[v])

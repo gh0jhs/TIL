@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 answer = []
 for _ in range(10):
     result = []
@@ -57,4 +57,5 @@ for i in range(10):
 #     answer.append(max(result))
 # for i in range(10):
 #     print('#{} {}'.format(i+1, answer[i]))
+#
 

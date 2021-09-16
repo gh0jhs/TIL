@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 T = int(input())
 for tc in range(1, T+1):
     n, m = map(int, input().split()) # n: 화덕의 크기, m: 피자 갯수

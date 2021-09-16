@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt', encoding='UTF8')
-
+#
 result = []
 for _ in range(10):
     t_number = input()

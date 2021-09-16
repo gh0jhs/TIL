@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 numbers = ["ZRO", "ONE", "TWO", "THR", "FOR", "FIV", "SIX", "SVN", "EGT", "NIN"]
 tc = int(input())
 

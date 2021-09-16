@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
-#  탐색
+##  탐색
 def binary_search(start, end, target, cnt): # 파라미터 카운트
     while start <= end:
         cnt += 1

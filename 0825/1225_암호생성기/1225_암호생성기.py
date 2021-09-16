@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 for _ in range(10):
     tc = int(input())
     data = list(map(int, input().split()))

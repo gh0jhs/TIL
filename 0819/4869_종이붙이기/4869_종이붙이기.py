@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 # 점화식
 # 1 3 5 11 21
 # 짝수 -> 홀수 : 2n-1

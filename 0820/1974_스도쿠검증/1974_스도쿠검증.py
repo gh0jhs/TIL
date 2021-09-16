@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 def test(arr):
     k1 = l1 = 0
     k2 = l2 = 3

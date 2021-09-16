@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 result = []
 for _ in range(10):
     n, s = input().split()

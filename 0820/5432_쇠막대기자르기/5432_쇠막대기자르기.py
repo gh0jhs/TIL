@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 result = []
 tc = int(input())
 for _ in range(tc):

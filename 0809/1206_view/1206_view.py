@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
-n = 0
+n = 0 
 result = []
 while n != 10:
     x = int(input())
@@ -13,7 +13,7 @@ while n != 10:
         for idx in range(len(i)):
             if i[idx] == 0:
                 continue
-            # 왼쪽, 오른쪽 큰 값 결정
+            ## 왼쪽, 오른쪽 큰 값 결정
             if i[idx-2] > i[idx-1]:
                 left = i[idx-2]
             else:

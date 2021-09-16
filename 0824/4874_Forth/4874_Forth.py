@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 
 #### 9 / 10 fail
 

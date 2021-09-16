@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 
 def check(x, y):
     if x < 0 or n-1 < x or y < 0 or n-1 < y or arr[x][y] == '1' or arr[x][y] == '2':

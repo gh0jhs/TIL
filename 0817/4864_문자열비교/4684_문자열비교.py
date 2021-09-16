@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 T = int(input())
 result = [] # 결과 리스트
 

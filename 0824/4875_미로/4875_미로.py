@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#
 # fail
 def dfs(x, y):
     global visited
